@@ -68,8 +68,81 @@ public class Oblig1 {
         return antall;
     }
 
+    
     //Oppg2
     //
     
+    public static int antallUlikeSortert(int[] a)
+    {
+        if (a.length < 2)
+        {
+            return a.length;
+        }
+
+        int antallUlike = 1;
+
+        for (int i = 1; i < a.length; i++)
+        {
+            if (a[i - 1] > a[i])
+            {
+                throw new IllegalStateException("Tabellen a er usortert!");
+            }
+            else
+            {
+                if (a[i - 1] < a[i])
+                {
+                    antallUlike++;
+                }
+            }
+        }
+        return antallUlike;
+    }
     
+    
+    //Oppg 3
+    //
+    public static int antallUlikeUsortert(int[] a)
+    {
+        return 0;
+    }
+    
+    
+    //Oppg 4
+    //
+    public static void delsortering(int[] a)
+    {
+
+    }
+    
+    
+    //Oppg 5
+    //
+    public static void rotasjon(char[] a)
+    {
+    
+    }
+    
+    //Oppg 6
+    //
+    public static void rotasjon(char[] a, int k)
+    {
+    
+    }
+    
+    
+    //Oppg 7 a)
+    //
+    public static String flett(String s, String t)
+    {
+        return null;
+        
+    }
+    
+    //Oppg 7 b)
+    //
+    public static String flett(String... s)
+    {
+        return null;
+      
+    }
 }
