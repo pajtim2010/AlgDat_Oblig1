@@ -145,4 +145,31 @@ public class Oblig1 {
         return null;
       
     }
+    
+    
+    //Oppg 8
+    //
+    public static int[] indekssortering(int[] a)
+    {
+        return null;
+        
+    }
+    
+    
+    //Oppg 9
+    //
+    public static int[] tredjeMin(int[] a)
+    {
+        return null; 
+    }
+    
+    
+    //Oppg 10
+    //
+    public static boolean inneholdt(String a, String b)
+    {
+        return false;
+        
+    }
+
 }
